@@ -25,20 +25,11 @@ body {
 
 .modal-close-button {
   margin-bottom: 20px;
+  margin-left: 2px;
   background-color: transparent;
   border: none;
   cursor: pointer;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
-/* @media screen and (max-width: 490px) {
-  .modal-container{
-    top: 50%;
-    left: 50%;
-    right: auto;
-    bottom: auto;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    overflow: auto;
-    height: 250px;
-    width: 300px;
-  }
-} */

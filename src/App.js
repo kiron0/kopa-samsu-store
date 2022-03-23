@@ -56,7 +56,7 @@ function App() {
       </div>
       <Modal isOpen={modal} onRequestClose={closeModal} style={customStyles}>
         <button className='modal-close-button' onClick={closeModal}>
-          <CgCloseR size={25} />
+          <CgCloseR size={30} />
         </button>
         {cart.length === 0 && (
           <div className='cart-warning'>
