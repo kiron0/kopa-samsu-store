@@ -8,7 +8,7 @@ const Cart = (props) => {
             <img className='modal-image-container' src={img} alt="" />
             <div>
             <h3>Name: {name}</h3>
-            <p>Price: {price}</p>
+            <p>Price: ${price}</p>
             </div>
         </div>
     );
