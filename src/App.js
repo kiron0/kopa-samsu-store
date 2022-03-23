@@ -4,6 +4,7 @@ import Card from "./Card/Card";
 import Navbar from "./Navbar/Navbar";
 import Modal from "react-modal";
 import { CgCloseR } from "react-icons/cg";
+import Cart from "./Cart/Cart";
 
 Modal.setAppElement("#root");
 
@@ -63,7 +64,7 @@ function App() {
           </div>
         )}
         {cart.map((item) => (
-          <h1>Name: {item.name}</h1>
+          <Cart item={item}></Cart>
         ))}
       </Modal>
     </div>
