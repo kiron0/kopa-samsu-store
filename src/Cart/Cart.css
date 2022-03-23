@@ -5,6 +5,7 @@
     margin-bottom: 15px;
     border: 1px solid #c4c4c4;
     overflow-x: hidden;
+    /* clip-path: polygon(15% 0%, 100% 0, 100% 86%, 85% 100%, 0 100%, 0% 16%); */
 }
 
 .modal-info h3, p{
@@ -15,10 +16,11 @@
 }
 
 .modal-image-container {
-    width: 150px;
+    width: 130px;
+    height: 130px;
     background-color: #fff;
-    padding: 15px;
-    /* clip-path: polygon(15% 0%, 100% 0, 100% 86%, 85% 100%, 0 100%, 0% 16%); */
+    padding: 20px;
+    clip-path: polygon(15% 0%, 100% 0, 100% 86%, 85% 100%, 0 100%, 0% 16%);
   }
   .modal-image-container img {
     height: 100%;
