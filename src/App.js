@@ -41,7 +41,7 @@ function App() {
   };
 
   useEffect(() => {
-    fetch("data.json")
+    fetch("https://raw.githubusercontent.com/kiron0/guns/main/data.json")
       .then((res) => res.json())
       .then((data) => setGuns(data));
   }, []);
